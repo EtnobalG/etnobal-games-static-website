@@ -1,0 +1,66 @@
+h2 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.linkSocialNetwork {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.linkSocialNetwork img {
+    height: 32px;
+}
+
+.container hr {
+    border: none;
+    border-top: 1px dashed #000;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+}
+
+footer {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Index */
+.commentSocialNetwork {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.commentSocialNetwork img {
+    height: 16px;
+}
+
+/* Contact us */
+.cryptedmail:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+
+.monPetitPotDeSucre {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
+
+/* Game */
+.screenshots:hover {
+    cursor: pointer;
+}
+
+.genreIcon, .modeIcon, .platformIcon, .engineIcon, .playIcon {
+    height: 30px;
+}
+
+.releaseButton {
+    height: 50px;
+}
